@@ -19,7 +19,7 @@ header {
     margin-top: 16px;
 }
 
-img {
+.image-container img {
     width: 80px;
     margin: 0 auto;
     border-radius: 60px;
