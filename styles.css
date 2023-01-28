@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header {
+    width: 95%;
+    max-width: 680px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+img {
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+.share-button {
+    height: 40px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+.catalog {
+    height: 40px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+.container {
+    width: 95%;
+    max-width: 680px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+.tile {
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    margin: 8px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.icon {
+    margin: 8px;
+    height: 32px;
+    width: 32px;
+}
+
+.hero-banner {
+    background-image: url("img/97-Silverlining-1_OC_31x24_2020.png"); background-color: #cccccc; 
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat; background-size: cover;
+    border-radius: 8px;
+}
+
+.hero-copy {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {font-family: didot, serif; font-size: 4.3rem;}
